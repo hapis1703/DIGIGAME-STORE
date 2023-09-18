@@ -87,7 +87,10 @@ main {
   font-family: sans-serif;
 }
 main .card {
-  cursor: pointer;
+  opacity: 1;
+}
+main .card:hover {
+  transform: translateY(0);
 }
 .card:hover {
   opacity: 1;
@@ -98,4 +101,7 @@ main .card {
 .card img {
   width: 170px;
   border-radius: 10px;
+}
+.card i {
+  cursor: pointer;
 }
