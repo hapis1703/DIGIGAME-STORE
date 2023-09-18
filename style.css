@@ -86,6 +86,9 @@ main {
   opacity: 0.7;
   font-family: sans-serif;
 }
+main .card {
+  cursor: pointer;
+}
 .card:hover {
   opacity: 1;
 }
