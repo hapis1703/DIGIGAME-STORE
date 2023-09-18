@@ -86,10 +86,10 @@ main {
   opacity: 0.7;
   font-family: sans-serif;
 }
-main .card {
+.pages .card {
   opacity: 1;
 }
-main .card:hover {
+.pages .card:hover {
   transform: translateY(0);
 }
 .card:hover {
